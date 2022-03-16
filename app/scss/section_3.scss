@@ -1,0 +1,16 @@
+.section_3 {
+  background-image: url(../img/sec_3_back.webp);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: white !important;
+  background-attachment: fixed;
+  button {
+    margin-top: 23px;
+  }
+  img {
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CodeDesign</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  
+</head>
+<body>
+  <header class="header">
+    <div class="header_container">
+
+      <div class="logo_container">
+        <a style="text-decoration: none;" href="./"><div id="logo" class="logo">Code<span>Design</span></div></a>
+      </div>
+
+      <div class="contacts_container">
+        <img src="./img/phone.png" alt="phone icon">
+        <a href="" class="contacts_phone">
+          +7 999 464-81-64
+        </a>
+      </div>
+    </div>
+  </header>
+  <section id="start" class="section_1">
+    <div class="purple_block"></div>
+    <div class="section_container section_1_container">
+      <div class="left_info">
+        <h1 class="h_main"><span>З</span>акажите разработку сайта под ключ от 25&#160;000<span id="ruble">₽</span></h1>
+        <p>Полный цикл разработки от составления технического задания,
+          до готового продукта. Анализ конкурентов, проектирование и 
+          разработка прототипа, продуманный дизайн, верстка и 
+          программирование, наполнение контентом, первоначальная 
+          SEO-оптимизация, превосходный результат.</p>
+        <button class="submit_button popup">Заказать расчёт</button>
+      </div>
+      <form id="qestion" class="submit_form_1" action="">
+        <div class="form_header" name="header">Нужна консультация?</div>
+        <input class="inpt_data" name="name" type="text" placeholder="Ваше Имя">
+        <input class="inpt_data" name="cont" type="text" placeholder="Телефон или email">
+        <textarea class="inpt_data" placeholder="Ваш вопрос" name="massage" id="" cols="30" rows="10"></textarea>
+        <div class="personal_data">
+          <input id="check" class="check" type="checkbox" name="check">
+          <label class="css-label" for="check">Разрешаю обработку персональных данных</label>
+        </div>
+        
+        <button class="submit_button submit_this_form">Заказать консультацию</button><div class="warnings"></div>
+      </form>
+    </div>
+  </section>
+  <section id="portfolio" class="section_2">
+    <div class="slider">
+      <div class="slide"><img src="./img/slider_imgs/slider_1.jpg" srcset="./img/slider_imgs/slider_1_640.jpg 640w, ./img/slider_imgs/slider_1_920.jpg 920w" alt="Лэндинг для компании по автоматизации бизнес-процессов 'Техно Универсал'"></div>
+      <div class="slide"><img src="./img/slider_imgs/slider_2.jpg" srcset="./img/slider_imgs/slider_2_640.jpg 640w, ./img/slider_imgs/slider_2_920.jpg 920w, ./img/slider_imgs/slider_2_1220.jpg 1220w" alt="Сайт для барбершопа 'DvaBro'"></div>
+      <div class="slide"><img src="./img/slider_imgs/slider_3.jpg" srcset="./img/slider_imgs/slider_3_640.jpg 640w, ./img/slider_imgs/slider_3_920.jpg 920w, ./img/slider_imgs/slider_3_1220.jpg 1220w" alt="Веб-страница для предприятия 'Сиббур' в новосибирске"></div>
+      <div class="slide"><img src="./img/slider_imgs/slider_4.jpg" srcset="./img/slider_imgs/slider_4_640.jpg 640w, ./img/slider_imgs/slider_4_920.jpg 920w" alt="Сайт для десткого лагеря 'Солнечная поляна'"></div>
+      <div class="slide"><img src="./img/slider_imgs/slider_5.jpg" srcset="./img/slider_imgs/slider_5_640.jpg 640w, ./img/slider_imgs/slider_5_920.jpg 920w, ./img/slider_imgs/slider_5_1220.jpg 1220w" alt="Продающий лэндинг для компании 'Сибирская гильдия ломбардов'"></div>
+      <div class="slide"><img src="./img/slider_imgs/slider_6.jpg" srcset="./img/slider_imgs/slider_6_640.jpg 640w, ./img/slider_imgs/slider_6_920.jpg 920w, ./img/slider_imgs/slider_6_1220.jpg 1220w" alt="Лэндинг для компании, занимающейся ремонтными работами на Камчатке"></div>
+    </div>
+  </section>
+  <section id="price_list" class="section_3">
+    <div class="section_container">
+      <div class="h_main"><span>Н</span>аши тарифы</div>
+    </div>
+    <div class="section_container pricings_container">
+      <div class="pricing">
+        <div>
+          <div class="pricing_header">
+          <div class="pricing_head">Лэндинг пэйдж</div>
+          <div class="price">от 25 000 руб.</div>
+          </div>
+          <p>Главная цель лендинга – 
+            совершение посетителем 
+            конкретного (целевого) действия.
+            Например, запись на вебинар, 
+            генерация заявок на 
+            определенную услугу или 
+            на покупку товара.</p>
+        </div>
+
+        <div class="pricing_footer">
+          <div data-text="• Анализ области деятельности
+          вашей компании.
+          &#10;• Изучение конкурентов, их
+          сильных и слабых сторон.
+          &#10;• Изучение целевой аудитории.
+          &#10;• Разработка структуры лендинга.
+          &#10;• Подготовка текста для лендинга.
+          &#10;• Разработка прототипа лендинга.
+          &#10;• Разработка индивидуального
+          дизайна.
+          &#10;• Верстка и программирование
+          функционала.
+          &#10;• Тестирование лендинга.
+          &#10;• Перенос страницы на хостинг
+          заказчика.
+          &#10;• Настройка контекстной рекламы." class="about_pricing">что входит в тариф?</div>
+          <div class="submit_button popup_objective">Выбрать</div>
+        </div>
+        
+      </div>
+
+      <div class="pricing">
+        <div>
+          <div class="pricing_header">
+          <div class="pricing_head">Корпоративный сайт</div>
+          <div class="price">от 35 000 руб.</div>  
+          </div>
+
+          <p>Корпоративный сайт – 
+            это сайт компании, ее 
+            официальное виртуальное 
+            представительство в интернете. 
+            Корпоративный сайт содержит 
+            полный объем информации о 
+            самой компании, о сфере 
+            ее деятельности и т.д.</p>
+        </div>
+        
+        <div class="pricing_footer">
+          <div data-text="• Анализ области деятельности вашей компании.
+          &#10;• Изучение конкурентов, их сильных и слабых сторон.
+          &#10;• Изучение целевой аудитории.
+          &#10;• Разработка структуры сайта (до 15 стр).
+          &#10;• Подготовка текста для сайта.
+          &#10;• Разработка прототипа сайта.
+          &#10;• Разработка индивидуального дизайна.
+          &#10;• Верстка и программирование функционала.
+          &#10;• Создание почты для домена и 5-ти корпоративных e-mail адресов
+          &#10;• Тестирование сайта.
+          &#10;• Перенос сайта на хостинг заказчика." class="about_pricing">что входит в тариф?</div>
+          <div class="submit_button popup_objective">Выбрать</div>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <div>
+          <div class="pricing_header">
+          <div class="pricing_head">Интернет-магазин</div>
+          <div class="price">от 60 000 руб.</div>
+          </div>
+          
+          <p>Сайт, торгующий товарами 
+            посредством сети Интернет. 
+            Позволяет пользователям 
+            онлайн, в своём браузере или 
+            через мобильное приложение, 
+            сформировать заказ на 
+            покупку, выбрать способ 
+            оплаты и доставки заказа, 
+            оплатить заказ.</p>
+        </div>
+        
+        <div class="pricing_footer">
+          <div data-text="• Анализ области деятельности вашей компании.
+          &#10;• Разработка структуры сайта.
+          &#10;• Разработка уникального дизайна сайта, каталога, корзины, личного кабинета.
+          &#10;• Подготовка текста для сайта.
+          &#10;• Разработка прототипа сайта.
+          &#10;• Разработка индивидуального дизайна.
+          &#10;• Верстка и программирование функционала.
+          &#10;• Наполнение каталога полное или по одной позиции для примера.
+          &#10;• Перенос сайта на хостинг заказчика.
+          &#10;• Инструкция по самостоятельной работе с интернет-магазином.
+          &#10;• Гарантия и бесплатные консультации в течении 1 года." class="about_pricing">что входит в тариф?</div>
+          <div class="submit_button popup_objective">Выбрать</div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section class="section_4">
+    <div class="section_container">
+      <div class="h_main"><span>П</span>очему нужно работать именно с нами?</div>
+    </div>
+    <div class="section_container why_we_container">
+      <div class="why_we">
+        <img src="./img/why_we_1.png" alt="">
+        <div class="why_we_info">
+          <div class="why_we_header">Над одним проектом работают минимум 7 разнопрофильных специалистов: </div>
+          <p>маркетолог, копирайтер, дизайнер, юзабилист, 
+            программист, проект-менеджер.</p>
+        </div>
+      </div>
+      <div class="why_we">
+        <img src="./img/why_we_2.png" alt="">
+        <div class="why_we_info">
+          <div class="why_we_header">Мы не делаем шаблонные сайты.</div>
+          <p>К каждому клиенту мы находим 
+            индивидуальный подход и создаём 
+            качественный продукт.</p>
+        </div>
+      </div>
+      <div class="why_we">
+        <img src="./img/why_we_3.png" alt="">
+        <div class="why_we_info">
+          <div class="why_we_header">Соблюдение пунктуальности играет 
+            большую роль для нас.</div>
+          <p>Нам важно, чтобы клиент получал готовый
+            продукт в поставленные сроки.</p>
+        </div>
+      </div>
+      <div class="why_we">
+        <img src="./img/why_we_4.png" alt="">
+        <div class="why_we_info">
+          <div class="why_we_header">Проводим тестирование на 
+            кроссбраузерность и работоспособность.</div>
+          <p>Проверяем сайт на качество по 100+ пунктам, 
+            тестируем работы ФОС и отправку 
+            уведомлений</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_5">
+    <div class="section_container">
+      <div class="h_main"><span>У</span> вас есть вопрос?<br> 
+        Задайте его абсолютно бесплатн<span>о</span></div>
+    </div>
+    <div class="section_container">
+      <form class="submit_form_2" action="">
+        <input class="inpt_data" name="name" type="text" placeholder="Ваше Имя">
+        <input class="inpt_data" name="cont" type="text" placeholder="Телефон или email">
+        <div class="personal_data">
+          <input id="check2" class="check" type="checkbox" name="check">
+          <label class="css-label" for="check2">Разрешаю обработку персональных данных</label>
+        </div>
+        
+        <button class="submit_button submit_this_form">Заказать консультацию</button><div class="warnings"></div>
+      </form>
+    </div>
+  </section>
+  <section class="section_5">
+    <div class="section_container">
+      <div class="h_main"><span>Э</span>тапы работы с нами</div>
+    </div>
+    <div class="section_6_container">
+      <img src="./img/phases_1.png" alt="" class="epoch_img"><div class="epoch_cont"><div class="epoch_name">Начало работы</div><p>Вы оставляете заявку на сайте, мы перезваниваем и уточняем детали</p></div>
+      <img src="./img/phases_2.png" alt="" class="epoch_img"><div class="epoch_cont"><div class="epoch_name">Заполнение брифа</div><p>Вы заполняете бриф, который оможет нам определить задачи и требования к вашему будущему сайту</p></div>
+      <img src="./img/phases_3.png" alt="" class="epoch_img"><div class="epoch_cont"><div class="epoch_name">Аналитика</div><p>Изучаем продукцию, услуги, анализируем текущий сайт и сайты конкурентов, определяем ЦА</p></div>
+      <img src="./img/phases_4.png" alt="" class="epoch_img"><div class="epoch_cont"><div class="epoch_name">UX/UI</div><p>Составляем структуру сайта, прототипы страниц.Создаем и согласовываем дизайн-концепцию сайта</p></div>
+      <img src="./img/phases_5.png" alt="" class="epoch_img"><div class="epoch_cont"><div class="epoch_name">Верстка сайта</div><p>Разработка клиентской и серверной стороны</p></div>
+      <img src="./img/phases_6.png" alt="" class="epoch_img"><div class="epoch_cont"><div class="epoch_name">Тестирование</div><p>Тестирование на кроссбраузерность и работоспособность</p></div>
+
+    </div>
+
+  </section>
+  <section class="section_7">
+    <div class="section_container">
+      <div class="h_main"><span>З</span>ачем вам нужен собственный сайт?</div>
+    </div>
+    <div class="section_container why_we_container">
+      <div class="why_we">
+        <img src="./img/section_7_1.png" alt="">
+        <div class="why_we_info">
+          <p>ПОВЫШЕНИЕ УЗНАВАЕМОСТИ
+            БРЕНДА</p>
+        </div>
+      </div>
+      <div class="why_we">
+        <img src="./img/section_7_2.png" alt="">
+        <div class="why_we_info">
+          <p>увеличение числа стабильных 
+            заказов и прибыли</p>
+        </div>
+      </div>
+      <div class="why_we">
+        <img src="./img/section_7_3.png" alt="">
+        <div class="why_we_info">
+          <p>эффективное привлечеНие 
+            новых клиентов</p>
+        </div>
+      </div>
+      <div class="why_we">
+        <img src="./img/section_7_4.png" alt="">
+        <div class="why_we_info">
+          <p>улучшенное взаимодействие 
+            и коммуникация с потребителями</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="feedback" class="section_4">
+    <div class="section_container">
+      <div class="h_main"><span>О</span>тзывы наших клиентов</div>
+    </div>
+    <div class="section_container pricings_container">
+      <img src="./img/screen_1.png" alt="" class="screen">
+      <img src="./img/screen_2.png" alt="" class="screen">
+      <img src="./img/screen_3.png" alt="" class="screen">
+    </div>
+  </section>
+  <section class="section_9">
+    <div class="section_container">
+      <div class="h_main"><span>Г</span>отовы сотрудничать?</div>
+    </div>
+    <div class="section_container section_9_container">
+      <form class="submit_form_3" action="">
+        <input class="inpt_data" name="name" type="text" placeholder="Ваше Имя">
+        <input class="inpt_data" name="cont" type="text" placeholder="Телефон или email">
+        <div class="personal_data">
+          <input id="check3" class="check" type="checkbox" name="check">
+          <label class="css-label" for="check3">Разрешаю обработку персональных данных</label>
+        </div>
+        
+        <button class="submit_button submit_this_form">Заказать консультацию</button><div class="warnings"></div>
+      </form>
+      <p>Мы разрабатываем креативный дизайн,
+        занимаемся веб-разработкой,
+        администрированием сайтов 
+        и их продвижением.
+        Создадим стратегию и проанализируем
+        Ваш бизнес, чтобы сделать его
+        успешнее и прибыльнее.
+        Оставьте свои контактные данные и мы
+        свяжемся с Вами в близжайшее время.</p>
+    </div>
+  </section>
+  <footer>
+    <div class="section_container">
+      <div class="h_main">Есть вопрос?</div>
+    </div>
+    <div class="section_container grd">
+      <div>
+        <a class="links to_obg popup" href="#qestion">Задать вопрос</a>
+      </div>
+      <div>
+        <a class="links to_obg" href="#portfolio">Наши работы</a>
+        <a class="links to_obg" href="#price_list">Тарифы</a>
+        <a class="links to_obg" href="#feedback">Отзывы</a>
+      </div>
+      <div>
+      </div>
+
+      <div>
+        <a class="links no_underline" target="_blank" href="https://www.instagram.com/codedesign.agency/">Instagram</a>
+        <a class="links no_underline" target="_blank" href="https://wa.me/79994501497">WhatsApp</a>
+        <a class="links no_underline" target="_blank" href="https://telegram.me/InfoCodeDesign">Telegram</a>
+      </div>
+      <div class="links_cont">
+        <a class="links no_underline" href="tel:+79994501497">+7 (999) 450-14-97</a>
+        <a class="links no_underline" href="tel:+79994648164">+7 (999) 464-81-64</a>
+        <a class="links no_underline" >Info@codedesign.agency</a>
+      </div>
+      <div>
+      </div>
+
+      <div>
+        © 2020 ООО «КОДЕСИЖН». Все права защищены 
+      </div>
+      <div>
+      </div>
+      <div class="to_top">
+        <a class="links to_obg" href="#start">Вернуться наверх</a>
+      </div>
+    </div>
+  </footer>
+  <div class="form_window">
+    <form class="submit_form_1" action="">
+      <div class="cls"><button class="close_bttn"></button></div>
+      <div class="form_header" name="header">Нужна консультация?</div>
+      <input class="inpt_data" type="text" name="name" placeholder="Ваше Имя">
+      <input class="inpt_data" type="text" name="cont" placeholder="Телефон или email">
+      <div class="personal_data">
+        <input id="check0" class="check" type="checkbox" name="check">
+        <label class="css-label" for="check0">Разрешаю обработку персональных данных</label>
+      </div>
+      
+      <button class="submit_button submit_this_form">Заказать консультацию</button><div class="warnings"></div>
+    </form>
+  </div>
+
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(66113728, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+    webvisor:true
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/66113728" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+</body>
+</html>

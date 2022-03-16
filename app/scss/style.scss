@@ -1,0 +1,88 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "media";
+@import "header";
+@import "section_1";
+@import "section_2";
+@import "section_3";
+@import "section_4";
+@import "_admin";
+
+
+body {
+    color: $metalic;
+}
+
+section {
+    display: flex;
+}
+
+nav {
+    background-color: yellowgreen !important; 
+    @media (min-width: 768px) { 
+        display: none;
+    }
+    .navbar-toggler {
+        color: white;
+    }
+    .navbar-brand {
+        font-size: 25px;
+        color: white !important;
+        @include media-breakpoint-down(xs) { 
+            font-size: 14px;
+        }
+    }
+
+    .h_cont {
+        width: 20%;
+        img {
+            width: 40px;
+            @include media-breakpoint-down(xs) { 
+                width: 25px;
+            }
+        }
+    }
+
+    a {
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        @include media-breakpoint-down(xs) { 
+            font-size: 14px;
+        }
+    }
+    a:hover {
+        color: #2b2b2b;
+    }
+    .nav-item .active {
+        color: #2b2b2b;
+    }
+
+}
+
+.polosochka {
+    width: 50%;
+    background-color: yellowgreen;
+    border: none;
+    height: 2px;
+    margin: 15px 0;
+}
+.tvs {
+    width: 30%;
+    margin: auto;
+}
+.s_4_img {
+    width: 100%;
+    @include media-breakpoint-between(md, xl) {
+        width: 50%;  
+    }
+}
+
+h1 {
+    @include media-breakpoint-down(xs) { 
+        font-size: 30px;
+        padding: 0 10px;
+    }
+}

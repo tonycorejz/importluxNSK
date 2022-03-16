@@ -1,0 +1,23 @@
+.sec_2_center {
+  line-height: 1.3em;
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+}
+
+.height_100 {
+  height: 30px;
+}
+
+.section_2 {
+  .card {
+    border: 0;
+    margin-right: 0 !important;
+    img {
+      width: 80px;
+    }
+  }
+  button {
+    background-color: yellowgreen;
+  }
+}

@@ -1,0 +1,84 @@
+.section_4 {
+  p {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .nxt {
+    width: 50px;
+    height: 50px;
+  }
+  .media img {
+    height: 80px;
+    width: auto;
+  }
+  .media {
+    margin-bottom: 20px;
+  }
+}
+
+.section_5 {
+  .more_btn {
+    border: 1px solid black !important;
+  }
+
+  .chck_btn {
+    background: yellowgreen !important;
+  }
+
+  .card-body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+    .card-img-top_my {
+      height: 150px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .c_b_1 {
+      background-image: url(../img/fruits.webp);
+    }
+    .c_b_2 {
+      background-image: url(../img/orx.webp);
+    }
+    .c_b_3 {
+      background-image: url(../img/cofeetea.webp);
+    }
+    .c_b_4 {
+      background-image: url(../img/spices.webp);
+    }
+    
+    .btn.focus, .btn:focus {
+      box-shadow: none;
+    }
+    @media (min-width: 768px) { 
+      width: 45%;
+    }
+    @media (min-width: 992px) { 
+      width: 22%;
+    }
+  }
+}
+
+.section_6 {
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    a {
+      font-weight: normal;
+      font-size: 20px;
+    }
+  }
+  .col-2, .col-9 {
+    padding: 0;
+  }
+  button {
+    background-color: yellowgreen;
+  }
+}
